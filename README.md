@@ -18,5 +18,8 @@ This project allows you to quickly set up a Tor hidden service web server using 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   pkg install python
+   git clone https://github.com/canidiscover/TOR-PROJECT.git
+   cd TOR-PROJECT
+   python tors.py
+   
