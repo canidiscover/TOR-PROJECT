@@ -18,7 +18,9 @@ This project allows you to quickly set up a Tor hidden service web server using 
 
 1. **Clone the repository**:
    ```bash
-   pkg install python
+   pkg install python -y
+   pip install flask -y
+   pkg install tor -y
    git clone https://github.com/canidiscover/TOR-PROJECT.git
    cd TOR-PROJECT
    python tors.py
